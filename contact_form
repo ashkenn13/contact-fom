@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="<link href=" https://fonts.googleapis.com/css2?family=Staatliches&display=swap " rel="stylesheet ">
+    <style>
+    * {
+    margin: 0px;
+    padding: 0px;
+}
+
+.b {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(10, 82, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+::placeholder {
+    color: rgb(178, 191, 202);
+}
+
+.box1 {
+    text-shadow: darkslategray;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 10%;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    flex: content;
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(0, 60, 150);
+}
+
+.box1 li {
+    color: aliceblue;
+    list-style-type: none;
+}
+
+.box1 input {
+    color: aliceblue;
+    background-color: rgb(0, 60, 150);
+    padding-top: 1px;
+    outline-width: 0px;
+    width: 200px;
+    height: 48px;
+    opacity: 0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-width: 3px;
+    border-bottom-color: rgba(127, 255, 212, 0.363);
+}
+
+.box2 {
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    margin-top: 27px;
+    margin-left: 50px;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: rgba(127, 255, 212, 0.363);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 button {
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    font-size: 12px;
+    color: aliceblue;
+    background-color: rgba(127, 255, 212, 0.363);
+    border-width: 0px;
+    width: 100px;
+    height: 50px;
+}
+
+.b:hover .box2 {
+    width: 100px;
+    height: 50px;
+}
+
+.box1:hover {
+    font-size: 40px;
+    margin-right: 240px;
+    width: 445px;
+    height: 750px;
+    transition: 1.5s ease-in-out;
+    box-shadow: antiquewhite;
+    background-color: rgb(0, 44, 109);
+}
+
+.box1:hover input {
+    opacity: 1;
+    background-color: rgb(0, 44, 109);
+    transition: 1.5s ease-in-out;
+}
+    </style>
+    <meta charset="UTF-8 ">
+    <meta name="viewport " content="width=device-width, initial-scale=1.0 ">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="b ">
+        <div class="box1 ">
+            <br>
+            <li class="login ">Login Book</li>
+            <br><br>
+            <li class="email ">User Id <br><br> <input type="text " placeholder="Enter Your User Id "></li>
+            <br>
+            <li class="password ">password <br><br> <input type="password " placeholder="Enter Your password "></li>
+
+
+        </div>
+        <div class="box2 "><button type="submit ">submit</button></div>
+    </div>
+</body>
+
+</html>
